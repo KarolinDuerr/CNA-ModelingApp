@@ -4,8 +4,6 @@ import ModelingAppMainView from './src/views/modelingAppMainView.mjs'
 
 class ModelingApplication {
 
-    // TODO add css?
-
     "use strict";
 
     #currentSystemName = "";
