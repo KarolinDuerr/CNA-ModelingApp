@@ -79,6 +79,14 @@
 
     <!-- Application code -->
     <script type="module" src="src/index.mjs"></script>
+    <script>
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register (
+            '/CNA-ModelingApp/serviceWorker.js',
+            {scope: '/CNA-ModelingApp/'}
+          )
+        }
+    </script>
 </body>
 
 </html>
