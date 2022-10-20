@@ -8,9 +8,9 @@ import 'https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.5.5/joint.js';
 
 import ModelingArea from './modelingArea.mjs';
 import Toolbar from './toolbar.js';
-import EntitySidebar from './entitySidebar.mjs';
-import ModalDialog from './modalDialog.mjs';
-import DetailsSidebar from './detailsSidebar.mjs';
+import EntitySidebar from './entitySideBar.mjs';
+import ModalDialog from './ModalDialog.mjs';
+import DetailsSidebar from './detailsSideBar.mjs';
 
 import ToolbarConfig from "../config/toolbarConfiguration.mjs";
 import SidebarEntityShapes from '../config/entityShapeConfiguration.mjs';
