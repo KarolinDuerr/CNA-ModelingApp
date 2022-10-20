@@ -1,0 +1,15 @@
+{
+  "name": "cna-modeling-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "ghpages": "vite build --base=/CNA-ModelingApp/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
+}

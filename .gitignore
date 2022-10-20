@@ -6,6 +6,11 @@
 *-blx.bib
 *.run.xml
 
+
+## node
+node_modules
+dist
+
 ## Editors:
 # WinEdt
 *.bak
