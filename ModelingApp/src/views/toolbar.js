@@ -2,7 +2,7 @@ import { ApplicationSettingsDialogConfig } from "../config/actionDialogConfig.mj
 import EntityTypes from "../config/entityTypes.mjs";
 import UIModalDialog from "../representations/guiElements.dialog.mjs";
 import ToolbarTools from "../representations/guiElements.toolbarTools.mjs";
-import ModalDialog from "./modalDialog.mjs";
+import ModalDialog from "./ModalDialog.mjs";
 
 class Toolbar extends joint.mvc.View {
 
