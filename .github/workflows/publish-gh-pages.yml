@@ -8,7 +8,6 @@ on:
 
 jobs:
   build_and_push:
-    if: ${{ false }}  # disable for now
     name: Build app and push to gh-pages branch
     runs-on: ubuntu-latest
     steps:
