@@ -27,3 +27,7 @@ dist
 /docs/aux
 
 .vscode
+
+# vite build
+# ignore public since it is generated via the build command, might change if things are restrctured and files are in public as a default
+public 

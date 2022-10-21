@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "ghpages": "vite build --base=/CNA-ModelingApp/",
+    "build": "mkdirp public && cp -r icon public/icon && vite build",
+    "ghpages": "mkdirp public && cp -r icon public/icon && vite build --base=/CNA-ModelingApp/",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "mkdirp": "^1.0.4",
     "vite": "^3.1.0"
   }
 }
